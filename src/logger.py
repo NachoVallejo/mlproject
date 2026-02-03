@@ -13,5 +13,5 @@ logging.basicConfig(
     datefmt='%Y-%m-%d %H:%M:%S'
 )
 
-if __name__ == "__main__":
-    logging.info("Logger has been configured successfully.")
+# if __name__ == "__main__":
+#     logging.info("Logger has been configured successfully.")
