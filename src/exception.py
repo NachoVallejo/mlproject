@@ -1,4 +1,5 @@
 import sys
+# from logger import logging
 
 def error_message_detail(error, error_detail: sys):
     """
@@ -49,5 +50,6 @@ class CustomException(Exception):
 #     try:
 #         1 / 0
 #     except Exception as e:
+#         logging.info("Divider by zero error occurred.")
 #         custom_exc = CustomException(e, sys)
 #         print(custom_exc)
